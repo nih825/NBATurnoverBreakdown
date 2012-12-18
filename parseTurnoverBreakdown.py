@@ -21,7 +21,7 @@ def bullsPlayerInvolved(rosterlist, str):
         if validate in str or validate1 in str:
             return rosterlist.index(player)
 
-datagrabber=handleData("http://www.nba.com/games/20121031/SACCHI/gameinfo.html")
+
 
 url=raw_input("Enter the URL for the current game.  Make sure play by play is updated:")
 
